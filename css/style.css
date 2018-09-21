@@ -1,0 +1,54 @@
+body {
+	background-image:url("../img/fund.png");
+	background-repeat: no-repeat;
+	background-size: 1250px;
+}
+
+
+/* MENU PRINCIPAL */
+
+#nome {
+	font-size: 35pt;
+	color: red;
+	font-family: "Comic Sans MS";
+	position: absolute;
+	left: 500px;
+	top: 30px;
+	
+	}
+
+.menu ul li {
+	background-color: #c2eced;
+	color: black;
+	float: left;
+	width: 200px;
+	height: 40px;
+	display:inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.menu ul li:hover{
+	background-color: #ed959f;
+}
+
+.menu ul{
+	padding: 0;
+	margin-left: 250px;
+
+	
+		
+}
+
+.menu ul ul{
+	display: none;
+	margin-left: 0;
+}
+
+.menu ul li:hover > ul{
+	display: block;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+/* MENU PRINCIPAL */
