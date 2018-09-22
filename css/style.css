@@ -15,7 +15,7 @@ body {
 	left: 500px;
 	top: 30px;
 	
-	}
+}
 
 .menu ul li {
 	background-color: #c2eced;
@@ -25,7 +25,7 @@ body {
 	height: 40px;
 	display:inline-block;
 	text-align: center;
-	line-height: 40px;
+	line-height: 42px;
 }
 .menu ul li:hover{
 	background-color: #ed959f;
@@ -34,9 +34,10 @@ body {
 .menu ul{
 	padding: 0;
 	margin-left: 250px;
+	cursor: pointer;
 
 	
-		
+
 }
 
 .menu ul ul{
@@ -52,3 +53,17 @@ body {
 	color: black;
 }
 /* MENU PRINCIPAL */
+
+
+
+
+form{
+	font-size: 16px;
+	background: #CCC;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+}
+h2{
+color: #333
+}

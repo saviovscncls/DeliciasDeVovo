@@ -35,19 +35,28 @@
 			<a href="contato.html"><li>Fale conosco</li></a>
 		</ul>
 	</nav>
+
 	<br><br><br><br>
-	<form accept="">	
-		Nome: <input type="text"><br>
-		Telefone: <input type="text"><br>
-		Data de nascimento: <input type="date"><br>
+	<form name="Formulariocontato" accept="">	
+		<h2>Contato</h2>
+		<p class="nome">
+			<input type="text" name="nome" placeholder="Informe seu nome">
+		</p>
+
+		<p class="telefone">
+			<input type="text" name="phone" placeholder="Informe seu Telefone"><br>
+		</p>
+
+		<p class="data">
+			Data de nascimento: <input type="date">
+		</p>
 		Sexo: <input type="radio" value="male">Masculino
 		<input type="radio" value="female">Feminino
-		<br><br>
-
-
+		<p class="envia">
+			<input type="button" value="Enviar">
+		</p>
 	</form>
-	<center>
-		<input type="button" value="Enviar"> 	
+	<center><br><br><br>
 		<a href="../Index.html"><input type="Button" value="HOME"></a>
 	</center>	
 </body>
