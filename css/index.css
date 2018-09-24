@@ -53,8 +53,6 @@ body {
 }
 /* MENU PRINCIPAL */
 
-/* INICIO DO FORMULARIO*/
-
 form{
 	font-size: 16px;
 	background: #CCC;
@@ -62,9 +60,7 @@ form{
 	margin: 0 auto;
 	padding: 0 10px 10px 10px;
 }
-h2{
-	color: #333
-}
+
 .envia input{
 	background-color: #069;
 	height: 40px;
@@ -78,4 +74,9 @@ h2{
 	color: #FFF;
 	cursor: pointer;
 }
-	
+
+.fundo{
+	 border-radius: 25%;
+    border: solid 2px black;
+    background-color: #dae3f2;
+}

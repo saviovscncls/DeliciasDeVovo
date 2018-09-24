@@ -5,7 +5,6 @@ body {
 
 }
 
-
 /* MENU PRINCIPAL */
 
 #nome {
@@ -53,29 +52,18 @@ body {
 }
 /* MENU PRINCIPAL */
 
-/* INICIO DO FORMULARIO*/
+/* INICIO DO BOLO DE CHOCOLATE */
 
-form{
-	font-size: 16px;
-	background: #CCC;
-	max-width: 500px;
-	margin: 0 auto;
-	padding: 0 10px 10px 10px;
-}
-h2{
-	color: #333
-}
-.envia input{
-	background-color: #069;
-	height: 40px;
-	width: 150px;
-	margin-left: 150px;
-	font-weight: bold;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border: 1px solid;
-	color: #FFF;
-	cursor: pointer;
-}
-	
+
+
+
+
+
+
+
+
+
+
+
+/* FIM DO BOLO DE CHOCOLATE */
+
