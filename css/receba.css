@@ -1,0 +1,93 @@
+	body {
+		background-image:url("../img/fund.png");
+		background-repeat: no-repeat;
+		background-size: 100% 1000%, contain, 3em;
+
+	}
+
+
+	/* MENU PRINCIPAL */
+
+	#nome {
+		font-size: 35pt;
+		color: red;
+		font-family: "Comic Sans MS";
+		position: absolute;
+		left: 500px;
+		top: 30px;
+		
+	}
+
+	.menu ul li {
+		background-color: #c2eced;
+		color: black;
+		float: left;
+		width: 200px;
+		height: 40px;
+		display:inline-block;
+		text-align: center;
+		line-height:42px;
+	}
+	.menu ul li:hover{
+		background-color: #a5c8c9;
+	}
+
+	.menu ul{
+		padding: 0;
+		margin-left: 250px;
+		cursor: pointer;
+		position: relative;
+	}
+
+	.menu ul ul{
+		display: none;
+		margin-left: 0;
+	}
+
+	.menu ul li:hover > ul{
+		display: block;
+	}
+	.menu a{
+		text-decoration: none;
+		color: black;
+	}
+	/* MENU PRINCIPAL */
+	/* INICIO RECEBA */
+
+	.msg {
+		margin-top: 50px;
+		float: left;
+		font-size: 14pt;
+		margin-left: 40px;
+		font-family: "Arial Black";
+
+	}
+
+	.receba {
+		width: 700px; 
+		height: 350px; 
+		background: #768296;
+		margin-top: 90px;
+		border-radius: 20px
+	}
+	input[type=text]{   
+		border-radius:4px;
+		margin-top: 30px;
+		background: #cccccc; 
+		border:1px solid #000000;
+		width:350px;
+		height: 39px;
+	}
+	input[type=button]{
+		background-color: #069;
+		height: 40px;
+		width: 150px;
+		margin-left: 10px;
+		margin-top: 20px;
+		font-weight: bold;
+		border-radius: 5px;
+		border: 1px solid;
+		color: #FFF;
+		cursor: pointer;
+
+	}

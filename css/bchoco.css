@@ -54,6 +54,75 @@ body {
 
 /* INICIO DO BOLO DE CHOCOLATE */
 
+.chocolate {
+	font-size: 25pt;
+	font-family: Arial;
+	margin-top: 90px;
+	margin-left: 300px;
+	color: black;
+	
+}
+
+.ing {
+	margin-left: 300px;
+	margin-top: 5px;
+	font-size: 20pt;
+}
+
+.massag {
+	width: 400px;
+	height: 330px;
+	font-size: 15pt;
+	background: #bccae2;
+	margin-left: 250px;
+	position: absolute;
+	
+}
+.massa{
+	margin-left: 30px;
+	font-family: Arial;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+
+.cobertura{
+	width: 400px;
+	height: 330px;
+	font-size: 15pt;
+	background: #bccae2;
+	margin-left: 700px;
+	float: left;
+}
+
+.cobe{
+	margin-left: 30px;
+	font-family: Arial;
+	font-size: 14pt;
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
